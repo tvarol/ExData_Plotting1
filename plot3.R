@@ -24,7 +24,7 @@ with(selected_data, plot(selected_data$DateTime, selected_data$SubMeter1,
 
 lines(selected_data$DateTime, selected_data$SubMeter2,col="red")
 lines(selected_data$DateTime, selected_data$SubMeter3,col="blue")
-legend('topright', col=c('black', 'red', 'blue'), lty=1, bty='n',
+legend('topright', col=c('black', 'red', 'blue'), lty=1,
        legend=c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'))
 
 # Save and quit
